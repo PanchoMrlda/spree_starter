@@ -48,3 +48,6 @@
 
 # Ignore JetBrains IDEs project files
 .idea/
+
+# Ignore assets used in seeders
+/db/seed_images/
