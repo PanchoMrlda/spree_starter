@@ -94,3 +94,12 @@ if defined?(Devise) && Devise.respond_to?(:parent_controller)
   Devise.parent_controller = "Spree::StoreController"
   Devise.parent_mailer = "Spree::BaseMailer"
 end
+
+Spree.config do |config|
+  config.currency = 'EUR'
+end
+
+Spree::Money.default_formatting_rules = {
+  format: '%n%u',
+  hide_zero: false
+}

@@ -33,5 +33,10 @@ module SpreeStarter
 
     # https://github.com/rails/rails/issues/45826
     config.active_record.yaml_column_permitted_classes = [Symbol, BigDecimal, Date, Time, ActiveSupport::TimeWithZone, ActiveSupport::TimeZone, ActiveSupport::HashWithIndifferentAccess]
+    config.active_record.use_yaml_unsafe_load = true
+
+    # Set language locale to Spanish
+    config.i18n.default_locale = :es
+    config.i18n.available_locales = [:es, :en]
   end
 end

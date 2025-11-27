@@ -21,7 +21,7 @@ default: &default
 
 development: &development
   <<: *default
-  database: spree_starter_development
+  database: spree_development
   host: <%= ENV.fetch('DB_HOST', 'localhost') %>
   username: <%= ENV.fetch('DB_USER', 'postgres') %>
   password: <%= ENV.fetch('DB_PASSWORD', 'password') %>

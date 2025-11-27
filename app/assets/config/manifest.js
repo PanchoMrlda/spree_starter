@@ -3,3 +3,18 @@
 //= link_tree ../../../vendor/javascript .js
 //= link_tree ../builds
 //= link application.css
+//= link fonts/icomoon/style.css
+//= link aos.css
+//= link bootstrap.min.css
+//= link cookie-alert.css
+//= link jquery-ui.css
+//= link magnific-popup.css
+//= link owl.carousel.min.css
+//= link owl.theme.default.min.css
+//= link style.css
+
+//= link jquery-3.3.1.min.js
+//= link aos.js
+//= link popper.min.js
+//= link bootstrap.min.js
+//= link views/cart_page.js
