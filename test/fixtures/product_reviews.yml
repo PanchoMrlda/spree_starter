@@ -1,0 +1,8 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+valid_review:
+  spree_product: one
+  spree_user: one
+  rating: 5
+  comment: MyText
+  approved: true
