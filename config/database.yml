@@ -22,8 +22,8 @@ default: &default
 development: &development
   <<: *default
   database: spree_development
-  host: <%= ENV.fetch('DB_HOST', 'localhost') %>
-  username: <%= ENV.fetch('DB_USER', 'postgres') %>
+  host: <%= ENV.fetch('DB_HOST', 'postgres') %>
+  username: <%= ENV.fetch('DB_USER', 'spree') %>
   password: <%= ENV.fetch('DB_PASSWORD', 'password') %>
   port: <%= ENV.fetch('DB_PORT', 5432) %>
   # On MacOS some users are reporting crashes when first trying to access
